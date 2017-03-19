@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Netflix TV Randomizer",
+  "description": "This extension allows you to randomize episodes within the TV show you are currentlying viewing",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title": "Netflix Episode Randomizer"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
