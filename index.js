@@ -248,7 +248,7 @@ NetflixRandomizer.prototype.hideElement = function(elementName) {
 
     // Confirm that we have a hide state for this element.
     if (!elementMetaData.hide) {
-        console.log(LOG_PREFIX + '[showElement] ' + elementName + ' is not a hideable UI element.');
+        console.log(LOG_PREFIX + '[hideElement] ' + elementName + ' is not a hideable UI element.');
         return;
     }
 
